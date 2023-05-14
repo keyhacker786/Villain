@@ -793,7 +793,8 @@ def main():
 			
 			if Main_prompt.ready:
 								
-				user_input = input(Main_prompt.prompt).strip()
+				while 1:
+					time.sleep(10)
 
 				if user_input == '':
 					continue
