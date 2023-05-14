@@ -1,7 +1,7 @@
 from pwn import *
 print("starting server")
 
-l = listen(4444)
+l = listen(8080)
 
 l.wait_for_connection()
 
