@@ -794,7 +794,7 @@ def main():
 			if Main_prompt.ready:
 								
 				while 1:
-					time.sleep(10)
+					sleep(10)
 
 				if user_input == '':
 					continue
