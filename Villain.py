@@ -792,6 +792,7 @@ def main():
 		try:	
 			
 			if Main_prompt.ready:
+				print(Main_prompt.prompt)
 								
 				while 1:
 					sleep(10)
