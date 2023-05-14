@@ -792,10 +792,7 @@ def main():
 		try:	
 			
 			if Main_prompt.ready:
-				print(Main_prompt.prompt)
-								
-				while 1:
-					sleep(10)
+				user_input = input(Main_prompt.prompt).strip()
 
 				if user_input == '':
 					continue
