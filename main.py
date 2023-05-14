@@ -1,6 +1,9 @@
 from pwn import *
 print("starting server")
-r = process(['python3 Villain.py'], stdin=PTY, raw=False)
+
+
+
+r = process(['python3'], stdin=PTY, raw=False)
 print(r.recv())
 l = pwn.listen(8888)
 
