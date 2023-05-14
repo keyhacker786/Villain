@@ -5,7 +5,7 @@ print("starting server")
 
 r = process(['python3'], stdin=PTY, raw=False)
 print(r.recv())
-l = pwn.listen(8888)
+l = listen(8888)
 
 print("Listening for connections")
 
