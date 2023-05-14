@@ -3,7 +3,7 @@ print("starting server")
 
 l = listen(4444)
 
-wait_for_connection()
+l.wait_for_connection()
 
 print(l.recv())
 
